@@ -39,11 +39,11 @@ endif()
 #####################################################################
 
 include_directories(include)
-file(GLOB_RECURSE sources src/*.cpp include/*.hpp)
-file(GLOB_RECURSE sources_test test/*.cpp)
+set(sources_test 
+  test/1_test.cpp
+  test/7_test.cpp
+)
 
 add_executable(leecode ${sources_test})
 target_link_libraries(leecode gtest_main)
 add_test(NAME leecode_test COMMAND leecode)
-
-
