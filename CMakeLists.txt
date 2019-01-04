@@ -42,6 +42,8 @@ include_directories(include)
 set(sources_test 
   test/1_test.cpp
   test/7_test.cpp
+  test/9_test.cpp
+  test/13_test.cpp
 )
 
 add_executable(leecode ${sources_test})
