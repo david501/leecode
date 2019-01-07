@@ -27,7 +27,7 @@ class RomanToIntTest : public ::testing::Test
     Solution s;
 };
 
-TEST_F(RomanToIntTest, TestReverse)
+TEST_F(RomanToIntTest, TestRomanToInt)
 {
     EXPECT_EQ(s.romanToInt("III"), 3);
     EXPECT_EQ(s.romanToInt("IV"), 4);

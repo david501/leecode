@@ -27,7 +27,7 @@ class IsPalindromeTest : public ::testing::Test
     Solution s;
 };
 
-TEST_F(IsPalindromeTest, TestReverse)
+TEST_F(IsPalindromeTest, TestIsPalindrome)
 {
     EXPECT_EQ(s.isPalindrome(121), true);
     EXPECT_EQ(s.isPalindrome(-121), false);

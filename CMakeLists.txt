@@ -40,10 +40,26 @@ endif()
 
 include_directories(include)
 set(sources_test 
-  test/1_test.cpp
-  test/7_test.cpp
-  test/9_test.cpp
-  test/13_test.cpp
+  # test/1_test.cpp
+  # test/7_test.cpp
+  # test/9_test.cpp
+  # test/13_test.cpp
+  # test/14_test.cpp
+  # test/20_test.cpp
+  # test/21_test.cpp
+  # test/26_test.cpp
+  # test/27_test.cpp
+  # test/28_test.cpp
+  # test/35_test.cpp
+  # test/38_test.cpp
+  # test/53_test.cpp
+  # test/58_test.cpp
+  # test/66_test.cpp
+  # test/67_test.cpp
+  # test/69_test.cpp
+  # test/70_test.cpp
+  # test/83_test.cpp
+  test/88_test.cpp
 )
 
 add_executable(leecode ${sources_test})
