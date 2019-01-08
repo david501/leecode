@@ -12,13 +12,11 @@ class Solution
   public:
     bool isSameTree(TreeNode *p, TreeNode *q)
     {
-        if (p)
-        {
-            return q &&
-                   p->val == q->val &&
-                   isSameTree(p->left, q->left) &&
-                   isSameTree(p->right, q->right);
-        }
-        return q == nullptr;
+        if(!p && !q) return true;
+        
+        return p && q &&
+               p->val == q->val &&
+               isSameTree(p->left, q->left) &&
+               isSameTree(p->right, q->right);
     }
 };
