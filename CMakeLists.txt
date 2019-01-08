@@ -36,6 +36,7 @@ add_subdirectory(${CMAKE_CURRENT_BINARY_DIR}/googletest-src
 if (CMAKE_VERSION VERSION_LESS 2.8.11)
   include_directories("${gtest_SOURCE_DIR}/include")
 endif()
+include_directories("${gmock_SOURCE_DIR}/include")
 #####################################################################
 
 include_directories(include)
@@ -63,7 +64,14 @@ set(sources_test
   # test/121_test.cpp
   # test/122_test.cpp
   # test/125_test.cpp
-  test/136_test.cpp
+  # test/136_test.cpp
+  # test/167_test.cpp 
+  # test/168_test.cpp
+  # test/169_test.cpp
+  # test/171_test.cpp
+  # test/172_test.cpp
+  test/189_test.cpp
+  
 )
 
 add_executable(leecode ${sources_test})
