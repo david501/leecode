@@ -70,7 +70,15 @@ set(sources_test
   # test/169_test.cpp
   # test/171_test.cpp
   # test/172_test.cpp
-  test/189_test.cpp
+  # test/189_test.cpp
+  # test/190_test.cpp
+  # test/191_test.cpp
+  # test/198_test.cpp
+  # test/202_test.cpp
+  # test/204_test.cpp
+  # test/205_test.cpp
+  # test/217_test.cpp
+  test/219_test.cpp
   
 )
 
