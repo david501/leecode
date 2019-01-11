@@ -81,7 +81,20 @@ set(sources_test
   # test/219_test.cpp
   # test/225_test.cpp
   # test/232_test.cpp
-  test/234_test.cpp
+  # test/234_test.cpp
+  # test/237_test.cpp
+  # test/242_test.cpp
+  # test/258_test.cpp
+  # test/263_test.cpp
+  # test/268_test.cpp
+  # test/283_test.cpp
+  # test/290_test.cpp
+  # test/292_test.cpp
+  # test/326_test.cpp
+  # test/342_test.cpp
+  # test/344_test.cpp
+  # test/345_test.cpp
+  test/349_test.cpp
   
 )
 
