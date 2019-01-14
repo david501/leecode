@@ -94,7 +94,13 @@ set(sources_test
   # test/342_test.cpp
   # test/344_test.cpp
   # test/345_test.cpp
-  test/349_test.cpp
+  # test/349_test.cpp
+  # test/350_test.cpp
+  # test/367_test.cpp
+  # test/371_test.cpp
+  # test/383_test.cpp
+  # test/387_test.cpp
+  test/400_test.cpp
   
 )
 
