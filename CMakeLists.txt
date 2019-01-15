@@ -100,7 +100,10 @@ set(sources_test
   # test/371_test.cpp
   # test/383_test.cpp
   # test/387_test.cpp
-  test/400_test.cpp
+  # test/400_test.cpp
+  # test/405_test.cpp
+  # test/414_test.cpp
+  test/415_test.cpp
   
 )
 
