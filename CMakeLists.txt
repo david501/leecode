@@ -113,8 +113,9 @@ set(sources_test
   # test/461_test.cpp
   # test/476_test.cpp
   # test/479_test.cpp
-  test/482_test.cpp
-  
+  # test/482_test.cpp
+  # test/500_test.cpp  
+  test/501_test.cpp 
 )
 
 add_executable(leecode ${sources_test})
