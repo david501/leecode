@@ -121,7 +121,11 @@ set(sources_test
   # test/509_test.cpp 
   # test/520_test.cpp
   # test/532_test.cpp
-  test/541_test.cpp
+  # test/541_test.cpp
+  # test/693_test.cpp
+  # test/696_test.cpp
+  test/697_test.cpp
+
 
 )
 
