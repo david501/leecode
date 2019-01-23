@@ -127,7 +127,9 @@ set(sources_test
   # test/697_test.cpp
   # test/724_test.cpp
   # test/728_test.cpp
-  test/746_test.cpp
+  # test/746_test.cpp
+  test/874_test.cpp
+
 
 
 )
