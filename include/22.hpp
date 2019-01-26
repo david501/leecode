@@ -25,17 +25,17 @@ public:
     vector<string> res;
     function<void(string, int, int)> helper = [&](string str, int left,
                                                   int right) {
-      if (str.size() == n + n) {
+      if (!right) {
         res.push_back(str);
         return;
       }
-      if (left < n)
-        helper(str + "(", left + 1, right);
-      if (right < left)
-        helper(str + ")", left, right + 1);
+      if (left)
+        helper(str + "(", left - 1, right);
+      if (right > left)
+        helper(str + ")", left, right - 1);
     };
 
-    helper("", 0, 0);
+    helper("", n, n);
     return res;
   }
 };
