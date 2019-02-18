@@ -10,6 +10,7 @@
 #include <map>
 #include <queue>
 #include <set>
+#include <list>
 #include <stack>
 #include <string>
 #include <unordered_map>
