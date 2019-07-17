@@ -41,7 +41,7 @@ include_directories("${gmock_SOURCE_DIR}/include")
 
 include_directories(include)
 set(sources_test 
-  work/241_test.cpp  
+  work/260_test.cpp  
 )
 
 add_executable(leecode ${sources_test})
