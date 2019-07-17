@@ -41,7 +41,7 @@ include_directories("${gmock_SOURCE_DIR}/include")
 
 include_directories(include)
 set(sources_test 
-  work/260_test.cpp  
+  work/287.find-the-duplicate-number.cpp  
 )
 
 add_executable(leecode ${sources_test})
